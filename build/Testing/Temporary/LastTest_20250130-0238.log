@@ -1,0 +1,20 @@
+Start testing: Jan 30 10:45 中国标准时间
+----------------------------------------------------------
+1/1 Testing: map_info_test
+1/1 Test: map_info_test
+Command: "D:/Cmake/cmake_planning_test4/bin/map_test.exe"
+Directory: D:/Cmake/cmake_planning_test4/build/test/map_test
+"map_info_test" start time: Jan 30 10:45 中国标准时间
+Output:
+----------------------------------------------------------
+This is pnc_map test
+pnc_map of This is pnc_map2
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"map_info_test" end time: Jan 30 10:45 中国标准时间
+"map_info_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 30 10:45 中国标准时间

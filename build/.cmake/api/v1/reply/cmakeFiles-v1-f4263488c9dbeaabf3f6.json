@@ -230,6 +230,9 @@
 		},
 		{
 			"path" : "src/show_result/CmakeLists.txt"
+		},
+		{
+			"path" : "test/map_test/CmakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

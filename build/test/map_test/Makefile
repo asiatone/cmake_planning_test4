@@ -96,14 +96,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Cmake\cmake_planning_test4\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Cmake\cmake_planning_test4\build\CMakeFiles D:\Cmake\cmake_planning_test4\build\src\\CMakeFiles\progress.marks
-	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
+	cd /d D:\Cmake\cmake_planning_test4\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Cmake\cmake_planning_test4\build\CMakeFiles D:\Cmake\cmake_planning_test4\build\test\map_test\\CMakeFiles\progress.marks
+	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/map_test/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Cmake\cmake_planning_test4\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/clean
+	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/map_test/clean
 .PHONY : clean
 
 # The main clean target
@@ -112,12 +112,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/map_test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/map_test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -126,42 +126,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/planning_main.dir/rule:
-	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/planning_main.dir/rule
-.PHONY : src/CMakeFiles/planning_main.dir/rule
+test/map_test/CMakeFiles/map_test.dir/rule:
+	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/map_test/CMakeFiles/map_test.dir/rule
+.PHONY : test/map_test/CMakeFiles/map_test.dir/rule
 
 # Convenience name for target.
-planning_main: src/CMakeFiles/planning_main.dir/rule
-.PHONY : planning_main
+map_test: test/map_test/CMakeFiles/map_test.dir/rule
+.PHONY : map_test
 
 # fast build rule for target.
-planning_main/fast:
-	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/build
-.PHONY : planning_main/fast
+map_test/fast:
+	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f test\map_test\CMakeFiles\map_test.dir\build.make test/map_test/CMakeFiles/map_test.dir/build
+.PHONY : map_test/fast
 
-planning_main.obj: planning_main.cpp.obj
-.PHONY : planning_main.obj
+map_test.obj: map_test.cpp.obj
+.PHONY : map_test.obj
 
 # target to build an object file
-planning_main.cpp.obj:
-	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/planning_main.cpp.obj
-.PHONY : planning_main.cpp.obj
+map_test.cpp.obj:
+	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f test\map_test\CMakeFiles\map_test.dir\build.make test/map_test/CMakeFiles/map_test.dir/map_test.cpp.obj
+.PHONY : map_test.cpp.obj
 
-planning_main.i: planning_main.cpp.i
-.PHONY : planning_main.i
+map_test.i: map_test.cpp.i
+.PHONY : map_test.i
 
 # target to preprocess a source file
-planning_main.cpp.i:
-	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/planning_main.cpp.i
-.PHONY : planning_main.cpp.i
+map_test.cpp.i:
+	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f test\map_test\CMakeFiles\map_test.dir\build.make test/map_test/CMakeFiles/map_test.dir/map_test.cpp.i
+.PHONY : map_test.cpp.i
 
-planning_main.s: planning_main.cpp.s
-.PHONY : planning_main.s
+map_test.s: map_test.cpp.s
+.PHONY : map_test.s
 
 # target to generate assembly for a file
-planning_main.cpp.s:
-	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/planning_main.cpp.s
-.PHONY : planning_main.cpp.s
+map_test.cpp.s:
+	cd /d D:\Cmake\cmake_planning_test4\build && $(MAKE) $(MAKESILENT) -f test\map_test\CMakeFiles\map_test.dir\build.make test/map_test/CMakeFiles/map_test.dir/map_test.cpp.s
+.PHONY : map_test.cpp.s
 
 # Help Target
 help:
@@ -172,10 +172,10 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... planning_main
-	@echo ... planning_main.obj
-	@echo ... planning_main.i
-	@echo ... planning_main.s
+	@echo ... map_test
+	@echo ... map_test.obj
+	@echo ... map_test.i
+	@echo ... map_test.s
 .PHONY : help
 
 
