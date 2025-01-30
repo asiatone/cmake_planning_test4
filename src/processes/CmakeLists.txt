@@ -10,7 +10,12 @@ PUBLIC
 ${PNC_MAP_Dir}
 )
 
-target_link_libraries(${PROJECT_NAME}                #这条代码写错了,原来会影响上一级链接,搞了好久才纠正,进一步了解动态链接原理
+target_link_libraries(${PROJECT_NAME}                
 PUBLIC 
 pnc_map
+)
+
+target_link_libraries(${PROJECT_NAME}               
+PUBLIC 
+Eigen3::Eigen
 )

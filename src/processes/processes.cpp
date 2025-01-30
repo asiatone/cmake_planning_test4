@@ -1,10 +1,21 @@
 #include <iostream>
 #include "processes.h"
+#include <Eigen/Dense>
+using Eigen::MatrixXd;
 using std::cout, std::endl;
 
 void Process::planProcess()
 {
-    cout << "process of This is planning processes3"<< endl;
+    cout << "process of This is planning processes3" << endl;
     my_map.mapInfo();
-    cout<<"Process of planning successes3!"<< endl;
+
+    MatrixXd m(2, 2);
+    m(0, 0) = 3;
+    m(1, 0) = 5;
+    m(0, 1) = -1;
+    m(1, 1) = m(1, 0) + m(0, 1);
+    cout << m << endl;
+    cout << "planning success MatrixXd!" << endl;
+
+    cout << "Process of planning successes3!" << endl;
 }
