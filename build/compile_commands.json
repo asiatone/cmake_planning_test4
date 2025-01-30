@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/Cmake/cmake_planning_test4/build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/planning_main.dir/includes_CXX.rsp -g -o CMakeFiles\\planning_main.dir\\planning_main.cpp.obj -c D:\\Cmake\\cmake_planning_test4\\src\\planning_main.cpp",
+  "file": "D:/Cmake/cmake_planning_test4/src/planning_main.cpp",
+  "output": "src/CMakeFiles/planning_main.dir/planning_main.cpp.obj"
+},
+{
+  "directory": "D:/Cmake/cmake_planning_test4/build/src/pnc_map",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -Dpnc_map_EXPORTS  -g -o CMakeFiles\\pnc_map.dir\\pnc_map.cpp.obj -c D:\\Cmake\\cmake_planning_test4\\src\\pnc_map\\pnc_map.cpp",
+  "file": "D:/Cmake/cmake_planning_test4/src/pnc_map/pnc_map.cpp",
+  "output": "src/pnc_map/CMakeFiles/pnc_map.dir/pnc_map.cpp.obj"
+},
+{
+  "directory": "D:/Cmake/cmake_planning_test4/build/src/processes",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -Dprocesses_EXPORTS @CMakeFiles/processes.dir/includes_CXX.rsp -g -o CMakeFiles\\processes.dir\\processes.cpp.obj -c D:\\Cmake\\cmake_planning_test4\\src\\processes\\processes.cpp",
+  "file": "D:/Cmake/cmake_planning_test4/src/processes/processes.cpp",
+  "output": "src/processes/CMakeFiles/processes.dir/processes.cpp.obj"
+},
+{
+  "directory": "D:/Cmake/cmake_planning_test4/build/src/show_result",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -Dshow_result_EXPORTS @CMakeFiles/show_result.dir/includes_CXX.rsp -g -o CMakeFiles\\show_result.dir\\show_result.cpp.obj -c D:\\Cmake\\cmake_planning_test4\\src\\show_result\\show_result.cpp",
+  "file": "D:/Cmake/cmake_planning_test4/src/show_result/show_result.cpp",
+  "output": "src/show_result/CMakeFiles/show_result.dir/show_result.cpp.obj"
+}
+]

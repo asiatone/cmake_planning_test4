@@ -1,0 +1,16 @@
+project (processes)
+
+add_library(${PROJECT_NAME}
+SHARED
+processes.cpp 
+)
+
+target_include_directories(${PROJECT_NAME}
+PUBLIC 
+${PNC_MAP_Dir}
+)
+
+target_link_libraries(${PROJECT_NAME}                #这条代码写错了,原来会影响上一级链接,搞了好久才纠正,进一步了解动态链接原理
+PUBLIC 
+pnc_map
+)
